@@ -1,0 +1,31 @@
+.hi {
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-family: "Passion One", sans-serif;
+    color: #E5E3D4;
+}
+
+body {
+    background-color: #1E201E;
+}
+
+li {
+    font-size: 20px;
+}
+
+.btn {
+    margin-right: 30px;
+}
+
+.aboutMe {
+    margin-left: 100px;
+}
+
+.popover-body {
+    font-size: 20px !important;
+}
+
+.popover {
+    max-width: 600px !important;
+}
