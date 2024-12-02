@@ -13,7 +13,7 @@
       <link rel="stylesheet" href="style.css">
    </head>
    <body>
-      <div>
+      
          <div>
             <p class="hi">Hi,<br>
                I'm Sergey,<br>
@@ -42,7 +42,7 @@
                   </ul>
                </div>
             </div>
-            <div class="btn-group">
+            <div class="btn-group contact">
                <button type="button" class="btn btn-danger btn-lg dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                  Contact Me
                </button>
@@ -54,25 +54,107 @@
                </ul>
              </div>
          </div>
-      </div>
+      
+
       <h3 class="projects">My Projects</h3>
       <div class="cards"> <!--ссылки на проекты-->
-         <div class="card text-bg-secondary" style="width: 18rem;">
-            <img src="images\Italian.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Italian Cuisine</h5>
-               <ul class="card-text">
-                  <li>HTNL/CSS</li>
-                  <li>GSAP</li>
-                  <li>Adobe Photoshop</li>
-               </ul>
-              <a href="https://animated-restaurant-by-sergey.glitch.me/" target="_blank" class="btn btn-warning">Visit</a>
+         
+          <!--группа карт-->
+          
+          <div class="row row-cols-1 row-cols-md-3 g-4">
 
-              <button type="button" class="btn btn-primary" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="bottom" data-bs-content="Animation has been added to the site using the GSAP library, and animation has also been added when we go to the MENU section. Photoshop was used to edit the image. CorelDRAW was used for the logo.">
-               Description
-               </button>
+            <!--карта 1-->
+            <div class="col">
+              <div class="card h-100 text-bg-secondary">
+                <img src="images\italian-cuisine.jpg" class="card-img-top" alt="Site img">
+                <div class="card-body">
+                  <h5 class="card-title">Italian Cuisine</h5>
+                  <ul class="card-text">
+                     <li>HTML/CSS</li>
+                     <li>GSAP</li>
+                     <li>Adobe Photoshop</li>
+                     <li>CorelDRAW</li>
+                  </ul>
+                  <div class="cardButtons">
+                  <a href="https://animated-restaurant-by-sergey.glitch.me/" target="_blank" class="btn btn-danger bold">Visit</a>
+
+                  <button type="button" class="btn btn-primary bold" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="bottom" data-bs-content="Animation has been added to the site using the GSAP library, and animation has also been added when we go to the MENU section. Photoshop was used to edit the image. CorelDRAW was used for the logo.">
+                     Description
+                     </button>
+                  </div>
+                </div>
+              </div>
             </div>
+
+            <!--карта 2-->
+            <div class="col">
+               <div class="card h-100 text-bg-secondary">
+                 <img src="images\christmas 1.jpg" class="card-img-top" alt="Site img">
+                 <div class="card-body">
+                   <h5 class="card-title">Christmas</h5>
+                   <ul class="card-text">
+                      <li>HTML/CSS</li>
+                      <li>JavaScript</li>
+                      <li>ParticlesJS</li>
+                   </ul>
+                   <div class="cardButtons">
+                   <a href="https://sergeyk-i-m.github.io/Christmas/" target="_blank" class="btn btn-danger bold">Visit</a>
+ 
+                   <button type="button" class="btn btn-primary bold" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="bottom" data-bs-content="Timer for cooking boiled eggs. We select one of the required results and the timer starts, after the timer ends, the timer stop signal sounds.">
+                      Description
+                      </button>
+                     </div>
+                 </div>
+               </div>
+             </div><!--конец карты-->
+
+            <!--карта 3-->
+            <div class="col">
+               <div class="card h-100 text-bg-secondary">
+                 <img src="images\relax.jpg" class="card-img-top" alt="Site img">
+                 <div class="card-body">
+                   <h5 class="card-title">Meditation</h5>
+                   <ul class="card-text">
+                      <li>HTML/CSS</li>
+                      <li>JavaScript</li>
+                   </ul>
+                     <div class="cardButtons">
+                        <a href="https://meditation-sergey.glitch.me/" target="_blank" class="btn btn-danger bold">Visit</a>
+      
+                        <button type="button" class="btn btn-primary bold bottom" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="bottom" data-bs-content='Meditation site. You can choose 3 relaxation themes "Sound of the ocean", "Sound of rain" and "Sound of nature". Each theme has a corresponding video and sound. The countdown is activated after choosing a theme.'>
+                           Description
+                           </button>
+                     </div>
+                 </div>
+               </div>
+             </div> <!--конец карты-->
+
+             <!--карта 4-->
+            <div class="col">
+               <div class="card h-100 text-bg-secondary">
+                 <img src="images\egg-timer.jpg" class="card-img-top" alt="Site img">
+                 <div class="card-body">
+                   <h5 class="card-title">Egg Timer</h5>
+                   <ul class="card-text">
+                      <li>HTML/CSS</li>
+                      <li>JavaScript</li>
+                      <li>Photoshop</li>
+                   </ul>
+                     <div class="cardButtons">
+                        <a href="https://egg-timer-by-sergey-kim.glitch.me/" target="_blank" class="btn btn-danger bold">Visit</a>
+      
+                        <button type="button" class="btn btn-primary bold bottom" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="bottom" data-bs-content='Timer for cooking boiled eggs. We select one of the required results and the timer starts, after the timer ends, the timer stop signal sounds.'>
+                           Description
+                           </button>
+                     </div>
+                 </div>
+               </div>
+             </div> <!--конец карты-->
+
           </div>
+
+
+
       </div>
       <script src="script.js"></script>
    </body>
